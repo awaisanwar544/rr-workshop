@@ -51,6 +51,14 @@ $link-hover-color: $cutom-primary;
     line-height: 2em;
 }
 
+#program {
+    background: {
+        image: url(pattern_bg.png);
+        size: auto;
+        repeat: repeat;
+    }
+}
+
 
 @import "node_modules/@fortawesome/fontawesome-free/css/all.css";
 @import "node_modules/bootstrap/scss/bootstrap";
