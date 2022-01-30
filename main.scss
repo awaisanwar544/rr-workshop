@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+$cutome-primary: #ec5242;
+
+$theme-colors: (
+  "primary":    $cutome-primary,
+  "light":      #d3d3d3,
+  "dark":       #272a31
+);
+
+$font-family-sans-serif: 'Lato', sans-serif;
+$link-color: #888888;
+$link-hover-color: $cutome-primary;
+
+#c-btn {
+    border-radius: 0px;
+    :hover {
+        color: #fff;
+    }
+    a {
+        border-radius: 0;
+    }
+}
+
+.current {
+    color: $cutome-primary !important;
+}
+
+#main-conntainer {
+    height: 100vh;
+}
+
+#hero {
+    background: {
+        image: url(main_big.png);
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+    }
+}
+
+
+@import "node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import "node_modules/bootstrap/scss/bootstrap";
