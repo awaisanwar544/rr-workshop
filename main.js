@@ -1,5 +1,5 @@
 const divSize = (element, height) => {
-  document.getElementById(element).style.height = `calc(100vh - ${height}px)`;
+  document.getElementById(element).style.minHeight = `calc(100vh - ${height}px)`;
 };
 
 const headerHeight = document.querySelector('header').offsetHeight;
