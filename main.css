@@ -20,7 +20,7 @@
 }
 
 #hero {
-  background-image: url(main_big.png);
+  background-image: url(/assets/main_big.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -36,13 +36,18 @@
 }
 
 #program {
-  background-image: url(pattern_bg.png);
+  background-image: url(/assets/pattern_bg.png);
   background-size: auto;
   background-repeat: repeat;
 }
 
 .card-text-font {
   font-size: 0.75em;
+}
+
+.speaker-image {
+  width: 30% !important;
+  min-width: 120px;
 }
 
 /*!

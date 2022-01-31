@@ -36,7 +36,7 @@ $link-hover-color: $cutom-primary;
 
 #hero {
     background: {
-        image: url(main_big.png);
+        image: url(/assets/main_big.png);
         size: cover;
         repeat: no-repeat;
         position: center;
@@ -54,7 +54,7 @@ $link-hover-color: $cutom-primary;
 
 #program {
     background: {
-        image: url(pattern_bg.png);
+        image: url(/assets/pattern_bg.png);
         size: auto;
         repeat: repeat;
     }
@@ -62,6 +62,11 @@ $link-hover-color: $cutom-primary;
 
 .card-text-font {
     font-size: 0.75em;
+}
+
+.speaker-image {
+    width: 30% !important;
+    min-width: 120px;
 }
 
 
