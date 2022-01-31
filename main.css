@@ -46,8 +46,16 @@
 }
 
 .speaker-image {
-  width: 30% !important;
-  min-width: 120px;
+  min-width: 100px !important;
+}
+
+.p-icon {
+  font-size: 4em;
+}
+
+.footer-text {
+  font-size: 0.85em;
+  font-weight: 500;
 }
 
 /*!

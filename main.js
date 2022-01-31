@@ -26,13 +26,13 @@ const speakers = {
       name: 'Awais Anwar',
       org: 'University of Lahore',
       desc: 'A quick brown fox jumped over the lazy dogs',
-      img: 'https://picsum.photos/200',
+      img: '/assets/speaker_01.png',
     },
     {
       name: 'Awais Anwar',
       org: 'University of Lahore',
       desc: 'A quick brown fox jumped over the lazy dogs',
-      img: 'https://picsum.photos/200',
+      img: '/assets/speaker_01.png',
     },
     {
       name: 'Awais Anwar',
@@ -65,10 +65,23 @@ const speakdersCards = document.querySelector('#speakers-cards');
 
 function addSpeakers() {
   for (let i = 0; i < speakers.data.length; i += 1) {
+    const count = () => {
+      if (i > 1) {
+        return 'd-none d-md-block hideOnSmall';
+      } return 'd-block';
+    };
+    const btn = () => {
+      if (i === 2) {
+        return `
+        <button id="seeMoreBtn" type="button" class="btn btn-outline-light text-dark d-md-none d-block col-12">See More <i class="fas fa-chevron-down text-primary"></i></button>
+        `;
+      } return '';
+    };
     const spTemplate = `
-    <div class="d-block col-md-6 col-12">
-    <div class="card align-items-center mb-5 p-1 p-md-2 flex-row border-0 col-12">
-        <img class="speaker-img align-self-start card-img-top m-1 m-lg-3" src="${speakers.data[i].img}" alt="Card image cap">
+    ${btn()}
+    <div class="${count()} col-md-6 col-12">
+    <div class="card align-items-center text-align-center mb-5 p-1 p-md-2 flex-row border-0 col-12">
+        <img class="card-img-top m-1 m-lg-3 w-md-auto w-25 speaker-img" src="${speakers.data[i].img}" alt="Card image cap">
         <div class="card-body flex-column pb-1">
             <h5 class="card-title text-dark">${speakers.data[i].name}</h5>
             <p class="card-subtitle text-primary card-text-font fst-italic fw-bold">${speakers.data[i].org}</p>
@@ -83,3 +96,12 @@ function addSpeakers() {
 }
 
 window.onload = addSpeakers();
+
+const seeMoreBtn = document.querySelector('#seeMoreBtn');
+seeMoreBtn.addEventListener('click', () => {
+  const tar = document.querySelectorAll('.hideOnSmall');
+  tar.forEach((ele) => {
+    ele.classList.remove('d-none');
+    seeMoreBtn.classList.add('d-none');
+  });
+});
