@@ -5,6 +5,7 @@ const divSize = (element, height) => {
 const headerHeight = document.querySelector('header').offsetHeight;
 divSize('hero', headerHeight);
 divSize('program', headerHeight * 2);
+divSize('speakers', headerHeight * 2);
 
 const menuBtn = document.querySelector('#menuBtn');
 let open = false;
