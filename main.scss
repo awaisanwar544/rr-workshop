@@ -77,6 +77,38 @@ $link-hover-color: $cutom-primary;
     font-weight: 500;
 }
 
+.abt-heading {
+    font-size: 6.5vw;
+}
+
+.bg-footer {       
+    @media (min-width: 991.98px) { 
+        background: #495057;
+        color: #fff;
+     }
+ }
+
+ hr {
+     height: 5px;
+ }
+
+ .bar {
+    width: 53px;
+    height: 16px;
+    border-bottom: 1px solid $cutom-primary;
+    margin: 0px auto 1em
+ }
+
+ .separator {
+    width: 100vw;
+    height: 16px;
+    border-bottom: 1px solid #adb5bd;
+    margin: 0px auto 1em
+ }
+
+ .z {
+    z-index: 200;
+ }
 
 @import "node_modules/@fortawesome/fontawesome-free/css/all.css";
 @import "node_modules/bootstrap/scss/bootstrap";

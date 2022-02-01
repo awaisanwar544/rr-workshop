@@ -58,6 +58,39 @@
   font-weight: 500;
 }
 
+.abt-heading {
+  font-size: 6.5vw;
+}
+
+@media (min-width: 991.98px) {
+  .bg-footer {
+    background: #495057;
+    color: #fff;
+  }
+}
+
+hr {
+  height: 5px;
+}
+
+.bar {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid #ec5242;
+  margin: 0px auto 1em;
+}
+
+.separator {
+  width: 100vw;
+  height: 16px;
+  border-bottom: 1px solid #adb5bd;
+  margin: 0px auto 1em;
+}
+
+.z {
+  z-index: 200;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

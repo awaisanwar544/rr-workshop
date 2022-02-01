@@ -1,11 +1,11 @@
-const divSize = (element, height) => {
-  document.getElementById(element).style.minHeight = `calc(100vh - ${height}px)`;
-};
+function divSize(element, scale) {
+  const headerHeight = document.querySelector('header').offsetHeight;
+  document.getElementById(element).style.minHeight = `calc(100vh - ${headerHeight * scale}px)`;
+}
 
-const headerHeight = document.querySelector('header').offsetHeight;
-divSize('hero', headerHeight);
-divSize('program', headerHeight * 2);
-divSize('speakers', headerHeight * 2);
+divSize('hero', 1);
+divSize('program', 2);
+divSize('speakers', 2);
 
 const menuBtn = document.querySelector('#menuBtn');
 let open = false;
