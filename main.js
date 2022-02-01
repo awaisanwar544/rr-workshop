@@ -32,7 +32,7 @@ const speakers = {
       name: 'Awais Anwar',
       org: 'University of Lahore',
       desc: 'A quick brown fox jumped over the lazy dogs',
-      img: '/assets/speaker_01.png',
+      img: 'https://researchroof.com/wp-content/uploads/2021/12/Untitled-design-83-1.png',
     },
     {
       name: 'Awais Anwar',
@@ -81,7 +81,7 @@ function addSpeakers() {
     ${btn()}
     <div class="${count()} col-md-6 col-12">
     <div class="card align-items-center text-align-center mb-5 p-1 p-md-2 flex-row border-0 col-12">
-        <img class="card-img-top m-1 m-lg-3 w-md-auto w-25 speaker-img" src="${speakers.data[i].img}" alt="Card image cap">
+        <img class="card-img-top m-1 m-lg-3 w-md-auto w-25 speaker-img img-fluid" src="${speakers.data[i].img}" alt="Card image cap">
         <div class="card-body flex-column pb-1">
             <h5 class="card-title text-dark">${speakers.data[i].name}</h5>
             <p class="card-subtitle text-primary card-text-font fst-italic fw-bold">${speakers.data[i].org}</p>
