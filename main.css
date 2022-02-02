@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import "node_modules/@fortawesome/fontawesome-free/css/all.css";
 #c-btn {
-  border-radius: 0px;
+  border-radius: 0;
 }
 #c-btn :hover {
   color: #fff;
@@ -77,14 +77,14 @@ hr {
   width: 53px;
   height: 16px;
   border-bottom: 1px solid #ec5242;
-  margin: 0px auto 1em;
+  margin: 0 auto 1em;
 }
 
 .separator {
   width: 100vw;
   height: 16px;
   border-bottom: 1px solid #adb5bd;
-  margin: 0px auto 1em;
+  margin: 0 auto 1em;
 }
 
 .z {
@@ -331,7 +331,7 @@ sup {
 }
 
 a {
-  color: #888888;
+  color: #888;
   text-decoration: underline;
 }
 a:hover {
@@ -3361,7 +3361,7 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
-  color: #888888;
+  color: #888;
   text-decoration: underline;
 }
 .btn-link:hover {
@@ -3833,7 +3833,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #888888;
+  color: #888;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4694,7 +4694,7 @@ textarea.form-control-lg {
 .page-link {
   position: relative;
   display: block;
-  color: #888888;
+  color: #888;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
