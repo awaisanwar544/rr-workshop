@@ -36,12 +36,10 @@ $link-hover-color: $cutom-primary;
 }
 
 #hero {
-  background: {
-    image: url(/assets/main_big.png);
-    size: cover;
-    repeat: no-repeat;
-    position: center;
-  }
+  background-image: url(/assets/main_big.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #hero-title {
@@ -54,11 +52,9 @@ $link-hover-color: $cutom-primary;
 }
 
 #program {
-  background: {
-    image: url(/assets/pattern_bg.png);
-    size: auto;
-    repeat: repeat;
-  }
+    background-image: url(/assets/pattern_bg.png);
+    background-size: auto;
+    background-repeat: repeat;
 }
 
 .card-text-font {
