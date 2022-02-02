@@ -110,5 +110,20 @@ $link-hover-color: $cutom-primary;
     z-index: 200;
  }
 
+ .card-img-overlay {
+    background-color: #ec53429c;
+ }
+
+ .card-img-custom {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+ }
+
+.card-parent {
+    flex: 1;
+ }
+
 @import "node_modules/@fortawesome/fontawesome-free/css/all.css";
 @import "node_modules/bootstrap/scss/bootstrap";
