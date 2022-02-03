@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-$cutome-primary: #ec5242;
+$cutom-primary: #ec5242;
 
 $theme-colors: (
-  "primary":    $cutome-primary,
-  "light":      #d3d3d3,
-  "dark":       #272a31
+  "primary": $cutom-primary,
+  "light": #d3d3d3,
+  "dark": #272a31,
+  "gray-200": #e9ecef,
+  "gray-700": #495057,
+  "gray-500": #adb5bd
+  
 );
 
 $font-family-sans-serif: 'Lato', sans-serif;
 $link-color: #888888;
-$link-hover-color: $cutome-primary;
+$link-hover-color: $cutom-primary;
 
 #c-btn {
     border-radius: 0px;
@@ -23,7 +27,7 @@ $link-hover-color: $cutome-primary;
 }
 
 .current {
-    color: $cutome-primary !important;
+    color: $cutom-primary !important;
 }
 
 #main-conntainer {
@@ -32,11 +36,45 @@ $link-hover-color: $cutome-primary;
 
 #hero {
     background: {
-        image: url(main_big.png);
+        image: url(/assets/main_big.png);
         size: cover;
         repeat: no-repeat;
         position: center;
     }
+}
+
+#hero-title {
+    max-width: 100%;
+    height: auto;
+}
+
+.lh-150 {
+    line-height: 2em;
+}
+
+#program {
+    background: {
+        image: url(/assets/pattern_bg.png);
+        size: auto;
+        repeat: repeat;
+    }
+}
+
+.card-text-font {
+    font-size: 0.75em;
+}
+
+.speaker-image {
+    min-width: 100px !important;
+}
+
+.p-icon {
+    font-size: 4em;
+}
+
+.footer-text {
+    font-size: 0.85em;
+    font-weight: 500;
 }
 
 

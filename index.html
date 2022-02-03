@@ -15,11 +15,8 @@
             <div class="container">
                 <div id="content" class="d-md-flex justify-content-end d-none">
                     <ul class="nav justify-content-end">
-                        <li class="nav-item"><a class="nav-link text-light" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">English</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">My Page</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">Logout</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><i class="fab fa-facebook-f"></i> &nbsp; Like our page</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#"><i class="fab fa-twitter"></i> &nbsp; Follow us</a></li>
                     </ul>
                 </div>
             </div>
@@ -28,11 +25,11 @@
         <div class="container-fluid navbar navbar-light navbar-expand-md">
             <div id="header" class="container">
                 <div class="logo d-none d-md-block">
-                    <a class="navbar-brand" href=""><img src="logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href=""><img src="/assets/logo.png" alt="logo"></a>
                 </div>
 
-                <button id="collapse-btn" type="button" class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="true" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button id="menuBtn" type="button" class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="true" aria-label="Toggle navigation">
+                    <i id="menuIcon" class="fas fa-bars"></i>
                 </button>
 
                 <nav id="mainMenu" class="navbar-collapse collapse">
@@ -49,11 +46,131 @@
         </div>
 
     </header>
-    <section id="hero" class="container-fluid">
-        <div class="container">
+    <main>
+        <section id="hero" class="container-fluid d-flex flex-column justify-content-center">
+            <div class="container">
+                <h1 class="text-primary">"Hello, Sharing world!"</h1>
+                <img id="hero-title" class="img-fluid col-lg-9 col-12" src="/assets/title.png" alt="">
+                <div class="border border-5 p-1 mt-3 border-white bg-gray-200 col-lg-7 col-md-9 col-12">
+                    <p class="lh-150 m-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum corrupti, unde blanditiis ab quidem ut vero repudiandae accusamus labore, officiis natus, quasi eum. A maxime facere animi tempore esse maiores!</p>
+                </div>
+                <div class="mt-5">
+                    <h2 class="text-gray-700 fw-bold">2015.10.14 (Wed) ~ 17 (Sat)</h2>
+                    <p class="fs-4 text-black-50">@ National Museum of Korea, Art Center Nabi, etc.</p>
+                </div>
+            </div>
+        </section>
+        <section id="program" class="container-fluid bg-dark d-flex flex-column justify-content-center">
+            <div class="container d-flex flex-column align-items-center">
+                <div class="mt-5">
+                    <h3 class="text-gray-500">Main Program</h3>
+                    <div class="divider bg-primary text-primary mx-5"><hr></div>
+                </div>
+                <div class="card-group gap-1 mt-5 flex-lg-row flex-column col-12">
+                    <div class="card bg-light bg-opacity-10 align-items-center p-lg-2 flex-lg-column flex-row col-12">
+                        <img class="card-img-top w-auto m-md-3 m-1" src="/assets/conference_icon.png" alt="Card image cap">
+                        <div class="card-body d-flex flex-lg-column flex-md-row align-items-center">
+                          <h5 class="card-title text-primary m-md-3 m-auto col-4 col-lg-12 text-lg-center">Lectures</h5>
+                          <p class="card-text text-white card-text-font text-lg-center m-md-3 m-auto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
 
+                    <div class="card bg-light bg-opacity-10 align-items-center p-lg-2 flex-lg-column flex-row col-12">
+                        <img class="card-img-top w-auto m-md-3 m-1" src="/assets/presentation_icon.png" alt="Card image cap">
+                        <div class="card-body d-flex flex-lg-column flex-md-row align-items-center">
+                          <h5 class="card-title text-primary m-md-3 m-auto col-4 col-lg-12 text-lg-center">Presentation</h5>
+                          <p class="card-text text-white card-text-font text-lg-center m-md-3 m-auto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+
+                    <div class="card bg-light bg-opacity-10 align-items-center p-lg-2 flex-lg-column flex-row">
+                        <img class="card-img-top w-auto m-md-3 m-1" src="/assets/forum_icon.png" alt="Card image cap">
+                        <div class="card-body d-flex flex-lg-column flex-md-row align-items-center">
+                          <h5 class="card-title text-primary m-md-3 m-auto col-4 col-lg-12 text-lg-center">Forum</h5>
+                          <p class="card-text text-white card-text-font text-lg-center m-md-3 m-auto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+
+                    <div class="card bg-light bg-opacity-10 align-items-center p-lg-2 flex-lg-column flex-row">
+                        <img class="card-img-top w-auto m-md-3 m-1" src="/assets/workshop_icon.png" alt="Card image cap">
+                        <div class="card-body d-flex flex-lg-column flex-md-row align-items-center">
+                          <h5 class="card-title text-primary m-md-3 m-auto col-4 col-lg-12 text-lg-center">Workshops</h5>
+                          <p class="card-text text-white card-text-font text-lg-center m-md-3 m-auto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+
+                    <div class="card bg-light bg-opacity-10 align-items-center p-lg-2 flex-lg-column flex-row">
+                        <img class="card-img-top w-auto m-md-3 m-1" src="/assets/network_icon.png" alt="Card image cap">
+                        <div class="card-body d-flex flex-lg-column flex-md-row align-items-center">
+                          <h5 class="card-title text-primary m-md-3 m-auto col-4 col-lg-12 text-lg-center">Network</h5>
+                          <p class="card-text text-white card-text-font text-lg-center m-md-3 m-auto">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+        
+                </div>
+
+                <div class="m-5 text-center">
+                    <a href="#"> SEE THE WHOLE PROGRAM</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="speakers" class="container-fluid d-flex flex-column justify-content-center">
+            <div class="container d-flex flex-column align-items-center">
+                <div class="mt-5">
+                    <h3 class="text-dark">Featured Speakers</h3>
+                    <div class="divider bg-primary text-primary mx-5"><hr></div>
+                </div>
+                <div id="speakers-cards" class="card-group flex-md-row flex-column flex-wrap">
+
+                    
+                </div>
+            </div>
+            
+
+        </section>
+        <section class="hideOnSmall d-md-block d-none container-fluid bg-dark d-flex flex-column justify-content-center">
+            <div class="container d-flex flex-column align-items-center">
+                <div class="mt-3">
+                    <h3 class="text-gray-500">Partner</h3>
+                    <div class="divider bg-primary text-primary mx-1"><hr></div>
+                </div>
+                <div class="d-flex flex-row gap-5 my-3 align-content-center align-items-center justify-content-center flex-wrap">
+                    <div>
+                        <i class="fab fa-amazon text-white-50 p-icon"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-apple text-white-50 p-icon"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-cpanel text-white-50 p-icon"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-behance text-white-50 p-icon"></i>
+                    </div>
+                    <div>
+                        <i class="fab fa-fedex text-white-50 p-icon"></i></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="hideOnSmall d-md-block d-none container-fluid d-flex flex-column justify-content-center">
+        <div class="container d-flex flex-sm-row flex-column align-items-center my-5">
+            <div class="col-sm-4 col-12 my-5">
+                <img src="./assets/cc-logo.png" class="img-fluid w-75" alt="">
+            </div>
+            <div>
+                <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="footer-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam dignissimos quos perspiciatis, voluptas voluptates neque eligendi autem nisi odio placeat fugiat consequatur repellendus praesentium quas similique excepturi quis, itaque eum.</p>
+            </div>
         </div>
-    </section>
+            
+    </footer>
 
     <script src="main.js"></script>
 </body>
