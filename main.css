@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-@import "node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import "./node_modules/@fortawesome/fontawesome-free/css/all.css";
 #c-btn {
   border-radius: 0;
 }
@@ -20,7 +20,7 @@
 }
 
 #hero {
-  background-image: url(/assets/main_big.png);
+  background-image: url(./assets/main_big.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -36,7 +36,7 @@
 }
 
 #program {
-  background-image: url(/assets/pattern_bg.png);
+  background-image: url(./assets/pattern_bg.png);
   background-size: auto;
   background-repeat: repeat;
 }
