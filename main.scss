@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+$cutom-primary: #ec5242;
+
+$theme-colors: (
+  "primary": $cutom-primary,
+  "light": #d3d3d3,
+  "dark": #272a31,
+  "gray-200": #e9ecef,
+  "gray-700": #495057,
+  "gray-500": #adb5bd
+);
+
+$font-family-sans-serif: "Lato", sans-serif;
+$link-color: #888;
+$link-hover-color: $cutom-primary;
+
+#c-btn {
+  border-radius: 0;
+
+  :hover {
+    color: #fff;
+  }
+
+  a {
+    border-radius: 0;
+  }
+}
+
+.current {
+  color: $cutom-primary !important;
+}
+
+#main-conntainer {
+  height: 100vh;
+}
+
+#hero {
+  background-image: url(./assets/main_big.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#hero-title {
+  max-width: 100%;
+  height: auto;
+}
+
+.lh-150 {
+  line-height: 2em;
+}
+
+#program {
+  background-image: url(./assets/pattern_bg.png);
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+.card-text-font {
+  font-size: 0.75em;
+}
+
+.speaker-image {
+  min-width: 100px !important;
+}
+
+.p-icon {
+  font-size: 4em;
+}
+
+.footer-text {
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.abt-heading {
+  font-size: 6.5vw;
+}
+
+.bg-footer {
+  @media (min-width: 991.98px) {
+    background: #495057;
+    color: #fff;
+  }
+}
+
+hr {
+  height: 5px;
+}
+
+.bar {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid $cutom-primary;
+  margin: 0 auto 1em;
+}
+
+.separator {
+  width: 100vw;
+  height: 16px;
+  border-bottom: 1px solid #adb5bd;
+  margin: 0 auto 1em;
+}
+
+.z {
+  z-index: 200;
+}
+
+.card-img-overlay {
+  background-color: #ec53429c;
+}
+
+.card-img-custom {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.card-parent {
+  flex: 1;
+}
+
+@import "./node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import "./node_modules/bootstrap/scss/bootstrap";
