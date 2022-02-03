@@ -3,7 +3,7 @@
 
 
 Hi there ✋!  
-This is Awais Anwar <img width="50" alt="Awais Anwar picture" src="https://media-exp1.licdn.com/dms/image/C4E03AQHVyzrdyWp6NA/profile-displayphoto-shrink_400_400/0/1642634491264?e=1649289600&v=beta&t=7y4yFIwnFeD_G8H509ArnCoqGFu5B4shGXvVCJQYnII"> and this is my capstone project for the first week of [<img width="150" alt="microverse" src="https://assets-global.website-files.com/5dbb30f00775d4c32191a4df/5e30ae0c4081806a8f50a7df_horizontal-logo-white-p-500.png">](https://www.microverse.com/) program
+This is Awais Anwar <img width="50" alt="Awais Anwar picture" src="https://media-exp1.licdn.com/dms/image/C4E03AQHVyzrdyWp6NA/profile-displayphoto-shrink_400_400/0/1642634491264?e=1649289600&v=beta&t=7y4yFIwnFeD_G8H509ArnCoqGFu5B4shGXvVCJQYnII"> and it is my capstone project for the first module of [<img width="150" alt="microverse" src="https://assets-global.website-files.com/5dbb30f00775d4c32191a4df/5e30ae0c4081806a8f50a7df_horizontal-logo-white-p-500.png">](https://www.microverse.com/) program
 
 [Link to the live page](https://awaisanwar544.github.io/rr-workshop/)
 
